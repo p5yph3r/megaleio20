@@ -57,8 +57,50 @@ animation: line-anim 1s ease forwards;
     animation: line-anim 1s ease forwards ;
 }
 
+
+
+neon{
+    position: absolute;
+    top : 57%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    text-shadow: 0 0 0.15em #1da9cc;
+    font-family: font-family: 'Montserrat', Arial, sans-serif;
+    color: #fff;
+    /*text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+    */
+    text-align: center;
+    animation: shake 2.5s linear forwards;
+    }
+
+h4{
+    position: absolute;
+    top : 59%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 2em;
+    color: #fff;
+}
+h3{
+    position: absolute;
+    color: #fff;
+    top : 30%;
+    left:50%;
+    font-family: font-family: 'Montserrat', Arial, sans-serif;
+    transform: translate(-50%,-50%);
+    font-size: 5em;
+}
+
+
+
+
+
 @keyframes line-anim{
     to{
         stroke-dashoffset: 0;
     }
 }
+
+
