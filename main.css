@@ -16,6 +16,13 @@ body{
     transform: translate(-50%,-50%);
 }
 
+#logo1{
+	position: absolute;
+    top : 35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
 #logo path:nth-child(1){
 stroke-dasharray: 786.3820190429688;
 stroke-dashoffset: 786;
@@ -86,7 +93,7 @@ h4{
 h3{
     position: absolute;
     color: #fff;
-    top : 30%;
+    top : 15%;
     left:50%;
     font-family: font-family: 'Montserrat', Arial, sans-serif;
     transform: translate(-50%,-50%);
@@ -95,12 +102,8 @@ h3{
 
 
 
-
-
 @keyframes line-anim{
     to{
         stroke-dashoffset: 0;
     }
 }
-
-
